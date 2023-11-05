@@ -43,7 +43,7 @@
      */
     /* color: coral; */
     color: #F5F5F5;
-    text-shadow: 2px 2px 4px #000000;
+    /* text-shadow: 2px 2px 4px #000000; */
 
     /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
                 #2E344E */
@@ -57,7 +57,7 @@
     text-decoration-color: #F5F5F5;
     cursor: pointer;
     color: #F5F5F5;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
 }
 .menu-content-1-a:hover{
     text-decoration: none;
@@ -83,13 +83,14 @@
         flex-direction: column;
         align-items:flex-start;
         justify-content:flex-start;
-        
+    
         .content-left-Homework-php{
-            background-image: linear-gradient(to left,rgba(222,17,110,1), rgba(46,52,78));
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            background-image: linear-gradient(to right,rgba(222,17,110,1), rgba(46,52,78));
+            /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
             height: 600px;
             width: 100%;
             border-radius: 5px;
+            border: 1px solid white;
             .Homework-php-title{
                 color: coral;
                 /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
@@ -97,7 +98,6 @@
                 width: 100%;
                 padding: 10px 0;
                 text-align: center;
-                /* border:3px solid gray; */
             }
             .content-Homework-list{
                 text-decoration: underline;
@@ -105,7 +105,7 @@
                 text-decoration-color: #F5F5F5;
                 cursor: pointer;
                 color: #F5F5F5;
-                text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+                /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
                 width: 100%;
                 height: 50px;
                 padding-left: 10px;
@@ -117,11 +117,11 @@
 
         .content-left-Homework-mysql{
             background-image: linear-gradient(to right,rgba(222,17,110,1), rgba(46,52,78));;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             height: 400px;
             width: 100%;
             border-radius: 5px;
             margin: 20px 0;
+            border: 2px solid white;
             .Homework-mysql-title{
                 color: coral;
                 /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
@@ -135,7 +135,7 @@
                 text-decoration-color: #F5F5F5;
                 cursor: pointer;
                 color: #F5F5F5;
-                text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+                /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
                 width: 100%;
                 height: 50px;
                 padding-left: 10px;
@@ -149,6 +149,7 @@
      .body-content-center{
         border-radius: 5px;
         height: 1050px;
+        border: 1px solid rgb(46,52,78);
         max-height: 1100px;
         width: 50%;
         background-color:white;
@@ -157,7 +158,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         .content-center-label {
             color: rgb(46,52,78);
             padding: 10px 15px;
@@ -176,7 +176,7 @@
         
         .login-title {
             color: coral;
-            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+            /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
             margin-bottom: 10px;
         }
         .content-right-login {
@@ -186,10 +186,10 @@
             width: 100%;
             height: 800px;
             /* background-color:brown; */
+            border: 1px solid rgb(46,52,78);
             align-items:center;
             justify-content:flex-start;
             background-image: linear-gradient(to right,rgba(222,17,110,1), rgba(46,52,78));
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             .login-title {
                 margin-top: 30%;
             }
@@ -205,7 +205,7 @@
                 .login-account-label {
                     /* background-color: brown; */
                     color: #F5F5F5;
-                    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+                    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
                     width: 150px;
                     text-align: center;
                 }
@@ -219,8 +219,7 @@
                 align-items:flex-start;
                 justify-content: center;
                 .login-password-label{
-                    color: #F5F5F5;
-                    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+                    color: white;
                     width: 150px;
                     text-align: center;
                 }           
@@ -228,8 +227,8 @@
             .login-button {
                 margin-top: 20px;
                 .login-button-color-white{
-                    color: #F5F5F5;
-                    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+                    color: white;
+                    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
                 }
             }
         }
@@ -238,7 +237,7 @@
 .footer {
     height: 180px;
     width: 100%;
-    border: 1px solid gray;
+    border: 3px solid gray;
     background-color: #2E344E;
     display: flex;
     flex-direction: column;
