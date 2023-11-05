@@ -1,0 +1,12 @@
+# Cho phép truy cập từ bất kỳ nguồn nào
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
+# Cho phép truy cập các tệp hình ảnh, CSS, JS và các tệp tĩnh khác
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ /public/$1 [L]
+</IfModule>

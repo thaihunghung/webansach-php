@@ -1,12 +1,12 @@
 /* --------------------BT-------------------- */
 .BT {
-    background-image: linear-gradient(to top,rgba(222,17,110,1), rgba(46,52,78));
-    color: #F5F5F5;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    /* background-image: linear-gradient(to top,rgba(222,17,110,1), rgba(46,52,78)); */
+    color: rgb(46,52,78);
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
     border-radius: 5px;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     /* background: transparent; */
-    border: 2px solid rgba(255, 255, 255, .5);
+    border: 2px solid rgb(46,52,78);
     /* backdrop-filter: blur(20px);
     box-shadow: 0 0 30px  rgba(0, 0, 0, .5); */
 }
@@ -28,8 +28,8 @@
         max-width: 150px;
     }
     ._BT-button-setup{
-        color: #F5F5F5;
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        color: rgb(46,52,78);
+        /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
     }
 
 }
@@ -47,8 +47,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: rgb(46,52,78);
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
     font-size: 1.08em;
     ._BT-label-number-lb2 {
         margin-left: 20px;
@@ -77,6 +77,7 @@
 .BT7-result,
 .BT8-result
 {
+    color: white;
     margin-top: 10px;
     width: 600px;
     height: 150px;
@@ -85,20 +86,21 @@
     flex-direction: column;
     align-items:  center;
     justify-content: center;
-    border: 1px solid gray;
-    background-color: rgba(222,17,110,1);
+    border: 2px solid rgb(46,52,78);
+    background-image: linear-gradient(to top,rgba(222,17,110,1), rgba(46,52,78,1));
+    /* background-color: rgba(222,17,110,1); */
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 .BT-result-tital {
     color: coral;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
 }
 .BT-result-label {
     width: 90%;
     height: 50px;
     text-align:center;
     color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
 
     font-size: 1.08em;
 }
@@ -157,7 +159,7 @@
     width: 100%;
     height: 10%;
     padding-top: 10px;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
 }
 
 
@@ -174,7 +176,6 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: blue;
 }
 .modify-BT8-show {
     display: block;
