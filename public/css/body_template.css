@@ -1,0 +1,184 @@
+/* --------------------BT-------------------- */
+.BT {
+    background-image: linear-gradient(to top,rgba(222,17,110,1), rgba(46,52,78));
+    color: #F5F5F5;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border-radius: 5px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    /* background: transparent; */
+    border: 2px solid rgba(255, 255, 255, .5);
+    /* backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px  rgba(0, 0, 0, .5); */
+}
+._BT,
+._BT4{
+    width: 600px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 60px;
+    align-items: center;
+    ._BT-stital{
+        color: coral;
+        text-shadow: none;
+    }
+    ._BT-label-number{
+        width: 140px;
+        max-width: 150px;
+    }
+    ._BT-button-setup{
+        color: #F5F5F5;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
+}
+
+.form-Bt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+._BT-form-label{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 1.08em;
+    ._BT-label-number-lb2 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+.form-input{
+    margin: 20px 0;
+}
+/* --------------------BT1-------------------- */
+/* --------------------BT2-------------------- */
+/* --------------------BT3-------------------- */
+/* --------------------BT4-------------------- */
+._BT4{
+    height: 400px;
+    justify-content: center;
+}
+/* --------------------BT5-------------------- */
+/* --------------------BT6-------------------- */
+/* --------------------BT7-------------------- */
+/* --------------------BT8-------------------- */
+/* --------------------BT9-------------------- */
+
+/* result */
+.BT-result, 
+.BT7-result,
+.BT8-result
+{
+    margin-top: 10px;
+    width: 600px;
+    height: 150px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    justify-content: center;
+    border: 1px solid gray;
+    background-color: rgba(222,17,110,1);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.BT-result-tital {
+    color: coral;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.BT-result-label {
+    width: 90%;
+    height: 50px;
+    text-align:center;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+    font-size: 1.08em;
+}
+
+/* -----------------BT7-result-------------------- */
+
+.BT7-result-label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .BT7-result-td {
+        text-align: center;
+        padding: 5px;
+    }
+} 
+.BT7-result-table {
+    width: 100%;
+}
+.BT7-result-tital {
+    color: coral;
+    text-shadow: none;
+    font-size: 1.5em;
+}
+
+/* -----------------BT8-result-------------------- */
+
+.BT8-result-label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .BT8-result-td {
+        text-align: center;
+        padding: 5px;
+    }
+} 
+.BT8-result-result {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+.BT8-result-table {
+    margin: auto 0;
+    width: 90%;
+}
+.BT8-result-tital {
+    color: coral;
+    text-shadow: none;
+    font-size: 1.5em;
+    display: none;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    padding-top: 10px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+/* modify */
+.modify-BT7-hidden,
+.modify-BT8-hidden {
+    display: none;
+}
+.modify-BT7-Up-height,
+.modify-BT8-Up-height {
+    height: 500px;
+}
+.modify-BT8-result-layout {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: blue;
+}
+.modify-BT8-show {
+    display: block;
+}
+._BT8-result-margin-top {
+    margin-top: 100px;
+}
